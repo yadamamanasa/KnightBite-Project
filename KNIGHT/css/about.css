@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px; 
+    font-family: sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    
+}
+nav{
+    background-color: rgba(8, 7, 7, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: fixed;
+}
+.logo img{
+    width: 60px ;
+    height: 60px;
+    border: 0px solid silver;
+    border-radius: 1px;
+    box-shadow: 0px 0px  black; 
+    margin-left: 180px; 
+}
+h4{
+    display: inline;
+    margin-bottom: 20px;
+    margin-right: 380px;
+    color: white;    
+}
+.search a{
+    color: white;
+    text-decoration: none;
+    margin-right: 79px;
+    padding: 25px;   
+}
+.banner{
+    background: url(../Assests/images/shake1.webp);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-position: center;
+    background-size: cover;
+}
+.banner h1{
+    color: #fff;
+    font-size: 3vw;
+    margin-top: 150px ;
+    width: 60vw;
+    padding-left: 80px;
+    letter-spacing: 2px;
+    font-family: nicotineregular;
+}
+h1{
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    unicode-bidi: isolate;
+    font-family: nunito;
+}
+.about-grid{
+    margin: 100px 0px;
+    row-gap: 70px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-content: center;
+    padding: 0px 100px;
+    column-gap: 40px;
+}
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 21px;
+    color: #424242;
+}
+.grid-item:nth-child(1) img{
+    transform: scale(.7);
+    width: 100%;
+    object-fit: cover;
+}
+.grid-item:nth-child(3) {
+    justify-content: space-evenly;
+}
+p{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    unicode-bidi: isolate;
+    display: block;
+}
+.grid-item img{
+    width: 100%;
+    object-fit: cover;
+}
+.location{
+    font-size: 25px; 
+      
+    
+}
+.location h1, .follow-us h1{
+    color: rgb(66, 66, 66 );
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.location,span{
+    color: rgb(66, 66, 66 );
+    font-weight: 700;
+}
+.profile-tags a{
+    margin-right: 30px;
+
+}
+a:link{
+    text-decoration: none;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
+    box-shadow: -5px -5px 19px rgba(0, 0, 0, 0.23);
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    font-size: 15px;
+}
+.location{
+    word-spacing: 10px;
+}
